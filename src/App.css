@@ -1,0 +1,135 @@
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  flex-grow: 1;
+}
+
+.text-hover:hover {
+  color: rgb(169, 169, 169) !important;
+}
+
+.logoMenu{
+  width: 55px;
+  height: 50px;
+}
+.navBar{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+#home{
+  margin-top: 10px;
+  height: 100%;
+}
+/* PORTADA */
+.portada {
+  background: linear-gradient(to right, #0201160c, #55590063);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 200px;
+  height: 90vh;
+}
+
+.img-portada {
+  box-shadow: 2px 2px 2px black;
+}
+
+.w-75{
+  margin: -4em;
+}
+
+.contenedor-textoPortada {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.contenedor-imagen{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.text-nombre {
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.71);
+}
+
+.text-puesto {
+  color: rgb(196, 196, 196);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.71);
+}
+
+/* SOBRE MI Y TRABAJO */
+.titulo{
+  text-decoration: underline yellow;
+}
+/* CONOCIMIENTOS */
+.icono{
+  font-size: 60px;
+}
+.tarjetaConocimiento{
+  height: 120px; /* Ajusta la altura deseada según tus necesidades */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  word-wrap: break-word;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+/* contacto */
+.datoContacto{
+  color: white;
+  font-weight: 600;
+  font-size: 15x;
+  text-decoration: none;
+  margin-bottom: 30px;
+}
+/* Proyectos */
+.linkProyectoGithub{
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+.linkProyectoGithub:hover{
+  color: yellow;
+}
+.cardProyectos{
+  height: 250px;
+}
+.cardProyectos img{
+  height: 65%;
+}
+
+
+@media (max-width: 576px) {
+  .portada {
+    padding: 60px;
+  }
+  .img-portada{
+    height: 300;
+    margin-bottom: 30px;
+  }
+  .datoContacto{
+    font-size: 14px;
+  }
+  .articleInfo{
+    margin-bottom: auto;
+  }
+  .cardProyectos{
+    height: 200px;
+  }
+  .cardProyectos img{
+    height: 62%;
+  }
+}
