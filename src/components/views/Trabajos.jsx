@@ -12,7 +12,7 @@ const Trabajos = () => {
                     <article className='rounded bg-secondary m-3 p-2 cardProyectos'>
                         <img src={portfolio} alt=" imagen proyecto portafolio" width="100%" className='rounded' />
                         <h4 className='mt-2'>Mi portafolio</h4>
-                        <a href="https://github.com/Agustincomics/Portfolio-AgustinSandoval" target='_blank' className='linkProyectoGithub'>Ver Repositorio de Github</a>
+                        <a href="https://github.com/Agustincomics/TP_PROGRAMACION3_PORTFOLIO" target='_blank' className='linkProyectoGithub'>Ver Repositorio de Github</a>
                     </article>
                 </Col>
                 <Col xs={11} md={4} className='text-center'>
